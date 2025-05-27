@@ -1,4 +1,3 @@
-# File: README.md
 # Hindi ASR API with FastAPI and NVIDIA NeMo
 
 This project provides a FastAPI REST API for Hindi speech-to-text (ASR) using NVIDIA NeMo's Conformer-CTC model (`stt_hi_conformer_ctc_medium`). The model is downloaded via NeMo, exported to ONNX for optimized inference, and served using FastAPI.

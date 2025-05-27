@@ -1,0 +1,26 @@
+# File: .gitignore
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+venv/
+.env
+*.DS_Store
+
+# Model files (if large and not versioned, or generated locally)
+# model/*.nemo # NeMo model checkpoints can be large
+# model/*.onnx # ONNX models can also be large
+
+# IDE / Editor specific
+.vscode/
+.idea/
+
+# Test outputs
+htmlcov/
+.pytest_cache/
+.coverage
